@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    @media screen { max-width: 2000px; }
 }
 
 body {
@@ -15,19 +16,25 @@ ul {
     background: rgb(8, 122, 103);
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 3px;
     list-style: none;
     margin: 0;
+    font-size: 20px;
 }
 
 li {
     cursor: pointer;
-    transition: background 0.3s;
+    color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
 }
 
-li:hover {
+#bMenu:hover {
     background: rgb(7, 104, 88);
     border-radius: 10px;
+    padding: 12px;
+    transition: 0.5s;
+    padding: 21px;
 }
 
 nav {
@@ -46,6 +53,7 @@ a {
     padding-top: 90px;
     text-align: center;
     margin: 0 70px 70px;
+    
 }
 
 h1, h2 {
@@ -72,7 +80,7 @@ p {
 }
 
 .botao:hover {
-    padding: 10px 32px;
+    padding: 20px 32px;
 }
 
 .Conheca {
@@ -113,3 +121,4 @@ p {
     border-color: rgb(8, 122, 103);
     outline: none;
 }
+

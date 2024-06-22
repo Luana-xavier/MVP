@@ -15,7 +15,9 @@ const Login = () => {
 
   return (
     <div className="form-container">
+      <section id="cadastro">
       <h2>Cadastro de Perfil</h2>
+      </section>
       <form onSubmit={Cadastro} className="form">
         <label>
           Nome Completo:

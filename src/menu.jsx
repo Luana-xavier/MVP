@@ -1,16 +1,15 @@
-
-import { NavLink } from 'react-router-dom';
-import './style.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import './style.css'
 
 function Menu() {
     return (
         <div className='container'>
             <nav>
                 <ul> 
-                    <li><NavLink to='/inicio'>Página inicial</NavLink></li>
-                    <li><NavLink to='/conheca'>Conheça Unifeso</NavLink></li>
-                    <li><NavLink to='/login'>Login/Cadastro</NavLink></li>
-                    <li><NavLink to='/agendamento'>Agendamento</NavLink></li>
+                    <AnchorLink href="#inicio" id='bMenu'>Página inicial </AnchorLink>
+                    <AnchorLink href='#conheca' id='bMenu'>Conheça Unifeso</AnchorLink>
+                    <AnchorLink href='#cadastro' id='bMenu'>Cadastro</AnchorLink>
+                    <AnchorLink href='#login' id='bMenu'>Login</AnchorLink>
                 </ul>
             </nav>
         </div>
