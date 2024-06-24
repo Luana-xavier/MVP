@@ -11,9 +11,9 @@ const Agendamento = () => {
 
   return (
     <div className="form-container">
-      <h2>Agendamento</h2> <br/>
+      <h2>Agendamento</h2> <br />
       <form className="form" onSubmit={handleAgendamento}>
-        <label className="form-label">
+        <label>
           Data:
           <input
             type="date"
@@ -23,7 +23,7 @@ const Agendamento = () => {
           />
         </label>
         <br />
-        <label className="form-label">
+        <label>
           Horário:
           <input
             type="time"

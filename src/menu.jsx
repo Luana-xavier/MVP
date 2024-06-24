@@ -6,7 +6,7 @@ function Menu() {
         <div className='container'>
             <nav>
                 <ul> 
-                    <AnchorLink href="#inicio" id='bMenu'>Página inicial </AnchorLink>
+                    <AnchorLink href='#inicio' id='bMenu'>Página inicial </AnchorLink>
                     <AnchorLink href='#conheca' id='bMenu'>Conheça Unifeso</AnchorLink>
                     <AnchorLink href='#cadastro' id='bMenu'>Cadastro</AnchorLink>
                     <AnchorLink href='#login' id='bMenu'>Login</AnchorLink>

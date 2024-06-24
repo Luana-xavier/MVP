@@ -101,12 +101,7 @@ p {
 .form {
     display: flex;
     flex-direction: column;
-}
-
-.form-label {
-    margin-bottom: 10px;
     font-weight: bold;
-    color: rgb(8, 122, 103);
 }
 
 .form-input, .form-select {
@@ -122,3 +117,18 @@ p {
     outline: none;
 }
 
+
+.stars-container {
+    font-size: 36px;
+}
+
+.star {
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star:hover,
+.star.filled {
+    color: orange;
+}
