@@ -30,8 +30,8 @@ const FeedbackForm = () => {
 
     return (
         <div className="form-container">
-            <h2>Feedback</h2>
-            <p>Por favor, avalie sua experiência:</p>
+            <h2>Feedback</h2> <br/>
+            <p id='pFeed'>Por favor, avalie sua experiência:</p>
             <form className='form'>
                 <div className="stars-container">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -55,8 +55,8 @@ const FeedbackForm = () => {
                     value={comentario}
                     onChange={(e) => setComentario(e.target.value)}
                 ></textarea>
-                <button type="submit" className="botao" onClick={enviarFeedback}>
-                    Enviar Feedback
+                <button type="submit" className="botao" onClick={enviarFeedback}> <a href='/inicio'>
+                    Enviar Feedback </a>
                 </button>
             </form>
         </div>

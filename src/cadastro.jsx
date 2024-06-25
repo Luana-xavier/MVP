@@ -15,23 +15,23 @@ const Login = () => {
 
   return (
     <div className="form-container">
-      <section id="cadastro">
-        <h2>Cadastro de Perfil</h2>
+      <section id="Cadastro">
+        <h2>Cadastrar novo Perfil</h2><br/>
       </section>
       <form onSubmit={Cadastro} className="form">
         <label>
           Nome Completo:
-          <input type="text" value={nomeCompleto} onChange={(e) => setNomeCompleto(e.target.value)} className="form-input" />
+          <input type="text" placeholder='Nome completo'value={nomeCompleto} onChange={(e) => setNomeCompleto(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
           Login:
-          <input type="text" value={login} onChange={(e) => setLogin(e.target.value)} className="form-input" />
+          <input type="text" placeholder="exemplo@gmail.com"value={login} onChange={(e) => setLogin(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
           Senha:
-          <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} className="form-input" />
+          <input placeholder='*********' type="password" value={senha} onChange={(e) => setSenha(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
@@ -41,7 +41,7 @@ const Login = () => {
         <br />
         <label>
           CPF:
-          <input type="text" value={cpf} onChange={(e) => setCpf(e.target.value)} className="form-input" />
+          <input type="text" placeholder="000.000.000-00"value={cpf} onChange={(e) => setCpf(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
@@ -53,7 +53,7 @@ const Login = () => {
           </select>
         </label>
         <br />
-        <button type="submit" className="botao">Cadastrar</button>
+        <button type="submit" className="botao"><a href='/login'>Cadastrar </a></button>
       </form>
     </div>
   );
