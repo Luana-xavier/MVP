@@ -1,14 +1,14 @@
 
 import Conheca from "./conheca";
+import vetorNaf from"./assets/img/vetorNaf.png";
+
+
 
 function Inicio() {
     return (
         <div id='Capa'>
-            <section id="inicio"> <br /><br />
-                <h1> AGENDAMENTO NAF</h1>
-                <img id="imgUni" src="https://econrio.com.br/wp-content/uploads/2023/03/FESO_LOGOS_.png" height={300} />
-
-                <h2>Declaração do Imposto de Renda de Pessoa Física (IRPF) !</h2>
+            <section id="inicio">
+                <img id="imgUni" src={vetorNaf} />
                 <p>
                     O prazo para realizar a declaração do Imposto de Renda de Pessoa Física (IRPF) está valendo e, para ajudar 
                     nessa missão, o Centro Universitário Serra dos Órgãos (Unifeso) oferece um núcleo especializado que presta o

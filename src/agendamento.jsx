@@ -33,7 +33,7 @@ const Agendamento = () => {
           />
         </label>
         <br />
-        <button type="submit" className="botao"><a href='/feedback'>Agendar</a></button>
+        <button type="submit" className="botao"><a href='/feedback'><p id="fontBot">Agendar</p></a></button>
       </form>
     </div>
   );

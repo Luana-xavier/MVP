@@ -16,17 +16,17 @@ const Login = () => {
   return (
     <div className="form-container">
       <section id="Cadastro">
-        <h2>Cadastrar novo Perfil</h2><br/>
+        <h2>Cadastrar novo Perfil</h2><br />
       </section>
       <form onSubmit={Cadastro} className="form">
         <label>
           Nome Completo:
-          <input type="text" placeholder='Nome completo'value={nomeCompleto} onChange={(e) => setNomeCompleto(e.target.value)} className="form-input" />
+          <input type="text" placeholder='Nome completo' value={nomeCompleto} onChange={(e) => setNomeCompleto(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
           Login:
-          <input type="text" placeholder="exemplo@gmail.com"value={login} onChange={(e) => setLogin(e.target.value)} className="form-input" />
+          <input type="text" placeholder="exemplo@gmail.com" value={login} onChange={(e) => setLogin(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
@@ -41,7 +41,7 @@ const Login = () => {
         <br />
         <label>
           CPF:
-          <input type="text" placeholder="000.000.000-00"value={cpf} onChange={(e) => setCpf(e.target.value)} className="form-input" />
+          <input type="text" placeholder="000.000.000-00" value={cpf} onChange={(e) => setCpf(e.target.value)} className="form-input" />
         </label>
         <br />
         <label>
@@ -52,8 +52,17 @@ const Login = () => {
             <option value="Aluno">Aluno</option>
           </select>
         </label>
+        <label>
+          Aceita receber notificações no seu e-mail ?
+          </label>
+          <div class="checkbox-wrapper-22">
+            <label class="switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </div>
         <br />
-        <button type="submit" className="botao"><a href='/login'>Cadastrar </a></button>
+        <button type="submit" className="botao"><a href='/login'><p id="fontBot">Cadastrar</p> </a></button>
       </form>
     </div>
   );

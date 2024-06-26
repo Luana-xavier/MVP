@@ -32,11 +32,12 @@ const LoginForm = () => {
             Senha:
             <input type="password" placeholder='*********' value={senha} onChange={(e) => setSenha(e.target.value)} className="form-input" required />
           </label>
-          <button type="submit" className="botao"><a href='/ambiente'>Entrar</a></button>
-          <footer>
-          <a id='novoCadastro'  href='/cadastro'>Faça seu cadastro !</a>
-          </footer>
+          <br/>
+          <button type="submit" className="botao"><a href='/ambiente'><p id="fontBot">Entrar</p></a></button>
         </form>
+        < div className='botaoCad'>
+          <button type="Click" className="botaoCad"><a href='/cadastro'><p id='fontBot'>Faça seu cadastro !</p></a></button>
+          </div>
       </div>
     </section>
   );

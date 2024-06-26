@@ -55,8 +55,7 @@ const FeedbackForm = () => {
                     value={comentario}
                     onChange={(e) => setComentario(e.target.value)}
                 ></textarea>
-                <button type="submit" className="botao" onClick={enviarFeedback}> <a href='/inicio'>
-                    Enviar Feedback </a>
+                <button type="submit" className="botao" onClick={enviarFeedback}> <a href='/inicio'><p id='fontBot'>Enviar Feedback </p></a>
                 </button>
             </form>
         </div>
