@@ -53,6 +53,7 @@ Criar um front-end para uma aplicação web responsiva que permita à populaçã
 
 ## Prototipação
 O protótipo foi desenvolvido através do 
+<br>
 As três primeiras telas escolhidas para prototipação foram: 
 - Página de login (login.jsx)
 - Página de agendamento (agendamento.jsx)
