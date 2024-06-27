@@ -7,7 +7,7 @@ import vetorNaf from"./assets/img/vetorNaf.png";
 function Inicio() {
     return (
         <div id='Capa'>
-            <section id="inicio">
+            <section id="/">
                 <img id="imgUni" src={vetorNaf} />
                 <p>
                     O prazo para realizar a declaração do Imposto de Renda de Pessoa Física (IRPF) está valendo e, para ajudar 

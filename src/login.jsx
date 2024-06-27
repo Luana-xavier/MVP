@@ -20,6 +20,7 @@ const LoginForm = () => {
             Escolha o tipo de usuário:
             <select value={tipoUsuario} onChange={(e) => setTipoUsuario(e.target.value)} className="form-select">
               <option value="">Selecione...</option>
+              <option value="administrador">Administrador</option>
               <option value="aluno">Aluno</option>
               <option value="professor">Professor</option>
             </select>
@@ -36,7 +37,7 @@ const LoginForm = () => {
           <button type="submit" className="botao"><a href='/ambiente'><p id="fontBot">Entrar</p></a></button>
         </form>
         < div className='botaoCad'>
-          <button type="Click" className="botaoCad"><a href='/cadastro'><p id='fontBot'>Faça seu cadastro !</p></a></button>
+          <button type="Click" className="botaoCad"><a href='/cadastro'><p id='fontBot'>Faça seu cadastro</p></a></button>
           </div>
       </div>
     </section>

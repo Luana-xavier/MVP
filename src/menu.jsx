@@ -10,7 +10,7 @@ function Menu() {
 
             <nav>
                 <ul> 
-                    <a href='/inicio' id='bMenu'>Página inicial </a>
+                    <a href='/' id='bMenu'>Página inicial </a>
 
                     <AnchorLink href='#conheca' id='bMenu'>Conheça Unifeso</AnchorLink>
 
