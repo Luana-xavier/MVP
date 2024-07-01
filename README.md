@@ -60,11 +60,18 @@ As três primeiras telas escolhidas para prototipação foram:
 - Página de feedback (feedback.jsx)
 <br><br>
 
-## Resultado do projeto 
-<a href="https://github.com/Luana-xavier/MVP">Clique aqui</a> para navegar pelo projeto finalizado.
+## Requisitos funcionais de prioridade alta
+A página para o agendamento deve oferecer um calendário com os dias e horários disponíveis, caso haja horários não disponíveis o sistema deve mostrar tal horário em vermelho como indisponível
+O sistema deve ter um campo obrigatório para o cadastro de e-mail e o campo de marcação para indicar que aceita receber por e-mail a confirmação de agendamento 
+Após agendamento o sistema deve disponibilizar uma tela onde o usuário encontrará 5 estelas clicáveis, para servir de medidor de satisfação e um campo onde o usuário poderá digitar seu feedback; 
+## Requisitos não funcionais de prioridade alta
+O sistema deve responder de maneira imediata ao comando, evitando telas de carregamento ou qualquer tipo de carregamento prolongado por mais de 2 segundo
+A interface do sistema deve ser limpa visualmente, evitar informações desnecessárias e chamativas que disperse a atenção do usuário, com botões de cores vivas, letras em fonte Ariel, background deve ter cores claras, para dar maior destaque aos textos e botões, utilizando somente uma paleta de cores escolhida semelhando ao da Unifeso
 
-<img src="./src/assets/prototipo/inicio.PNG"/>
-<img src="./src/assets/prototipo/login.PNG"/>
+
+
+## Protótipo
+
 <img src="./src/assets/prototipo/cadastro.PNG">
 <img src="./src/assets/prototipo/agendamento.PNG"/>
 <img src="./src/assets/prototipo/feedback.PNG">
