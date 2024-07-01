@@ -63,4 +63,10 @@ As três primeiras telas escolhidas para prototipação foram:
 ## Resultado do projeto 
 <a href="https://github.com/Luana-xavier/MVP">Clique aqui</a> para navegar pelo projeto finalizado.
 
+<img src="./src/assets/prototipo/inicio.PNG"/>
+<img src="./src/assets/prototipo/login.PNG"/>
+<img src="./src/assets/prototipo/cadastro.PNG">
+<img src="./src/assets/prototipo/agendamento.PNG"/>
+<img src="./src/assets/prototipo/feedback.PNG">
+
 
