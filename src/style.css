@@ -298,4 +298,6 @@ textarea,
     box-shadow: 2px 2px 2px;
     margin: 2px 0px 0px 2px;
     border-radius: 30px;
+    display:inline-block;
+
 }
