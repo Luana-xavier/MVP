@@ -30,6 +30,7 @@ O projeto utilizou as seguintes ferramentas de desenvolvimento de software:
 - JAVASCRIPT
 - REACT
 - VITE
+- GITHUB
 
 <br><br>
 
