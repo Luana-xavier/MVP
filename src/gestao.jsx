@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./gestao.css";
 
 function Gestao() {
   const [disponibilidade, setDisponibilidade] = useState([]);

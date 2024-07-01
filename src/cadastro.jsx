@@ -21,22 +21,22 @@ const Login = () => {
       <form onSubmit={Cadastro} className="form">
         <label>
           Nome Completo:
-          <input type="text" placeholder='Nome completo' value={nomeCompleto} onChange={(e) => setNomeCompleto(e.target.value)} className="form-input" />
+          <input type="text" placeholder='Nome completo' value={nomeCompleto} onChange={(e) => setNomeCompleto(e.target.value)} className="form-input"  required/>
         </label>
         <br />
         <label>
           Login:
-          <input type="text" placeholder="exemplo@gmail.com" value={login} onChange={(e) => setLogin(e.target.value)} className="form-input" />
+          <input type="email" placeholder="exemplo@gmail.com" value={login} onChange={(e) => setLogin(e.target.value)} className="form-input" required/>
         </label>
         <br />
         <label>
           Senha:
-          <input placeholder='*********' type="password" value={senha} onChange={(e) => setSenha(e.target.value)} className="form-input" />
+          <input placeholder='*********' type="password" value={senha} onChange={(e) => setSenha(e.target.value)} className="form-input" required />
         </label>
         <br />
         <label>
           Data de Nascimento:
-          <input type="date" value={dataNascimento} onChange={(e) => setDataNascimento(e.target.value)} className="form-input" />
+          <input type="date" value={dataNascimento} onChange={(e) => setDataNascimento(e.target.value)} className="form-input" required/>
         </label>
         <br />
         <label>
@@ -46,7 +46,7 @@ const Login = () => {
         <br />
         <label>
           Profissão:
-          <select value={profissao} onChange={(e) => setProfissao(e.target.value)} className="form-select">
+          <select value={profissao} onChange={(e) => setProfissao(e.target.value)} className="form-select" required>
             <option value="">Selecione...</option>
             <option value="Professor">Professor</option>
             <option value="Aluno">Aluno</option>

@@ -61,6 +61,6 @@ As três primeiras telas escolhidas para prototipação foram:
 <br><br>
 
 ## Resultado do projeto 
-<a href="https:/">Clique aqui</a> para navegar pelo projeto finalizado.
+<a href="hhttps://github.com/Luana-xavier/MVP">Clique aqui</a> para navegar pelo projeto finalizado.
 
 

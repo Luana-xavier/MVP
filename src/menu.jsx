@@ -1,6 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './style.css'
-import { Link } from 'react-router-dom';
 
 
 
@@ -12,7 +11,7 @@ function Menu() {
                 <ul> 
                     <a href='/' id='bMenu'>Página inicial </a>
 
-                    <AnchorLink href='#conheca' id='bMenu'>Conheça Unifeso</AnchorLink>
+
 
                     <a href='/login' id='bMenu'>Login</a>
 

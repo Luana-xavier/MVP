@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Calendario from './calendario';
 
 const Agendamento = () => {
   const [data, setData] = useState('');
@@ -8,29 +9,15 @@ const Agendamento = () => {
     e.preventDefault();  // Prevent the default form submission
     console.log(`Data: ${data}, Horário: ${horario}`);
   };
-
   return (
     <div className="form-container">
-      <h2>Agendamento</h2> <br />
       <form className="form" onSubmit={handleAgendamento}>
         <label>
-          Data:
-          <input
-            type="date"
-            value={data}
-            onChange={(e) => setData(e.target.value)}
-            className="form-input"
-          />
+          
+          <Calendario />
         </label>
         <br />
         <label>
-          Horário:
-          <input
-            type="time"
-            value={horario}
-            onChange={(e) => setHorario(e.target.value)}
-            className="form-input"
-          />
         </label>
         <br />
         <button type="submit" className="botao"><a href='/feedback'><p id="fontBot">Agendar</p></a></button>
