@@ -293,6 +293,7 @@ textarea,
     font-family: Arial, Helvetica, sans-serif;
 }
 #hora{
+    display: inline-block;
     padding: 2vw;
     border: solid 1px rgb(8, 122, 103);
     box-shadow: 2px 2px 2px;

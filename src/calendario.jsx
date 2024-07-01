@@ -21,8 +21,6 @@ function Calendario() {
 <span id='hora'>10:00 <input type="checkbox"/></span>
 
 <span id='hora'>11:00 <input type="checkbox"/></span>
- 
-<span id='hora'>13:00 <input type="checkbox"/></span>
 
 <span id='hora'>14:00 <input type="checkbox"/></span>
   
